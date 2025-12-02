@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #F7F5F2;
+    color: #1A1A1A;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: #1A1A1A;
+    color: white;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    height: 80vh;
+    background: url('../images/hero-banner.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+}
+
+.hero-text h2 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.btn {
+    background: #C4281C;
+    padding: 12px 24px;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 40px 60px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
